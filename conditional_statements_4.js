@@ -33,3 +33,19 @@ switch (n2 % 5) {
     default:
         console.log(n);
 }
+
+n2 = 9;
+
+switch (n2 % 5) {
+    case 0: {
+        console.log('5의 배수입니다.');
+        break
+    }
+    case 1:
+    case 2:
+    case 3:
+    case 4:
+        console.log('5의 배수가 아닙니다.');
+    default:
+        console.log(n);
+}
