@@ -1,4 +1,4 @@
-// Promise 객체가 rejected 된 경우의 처리를 위해
+// promise 객체가 rejected 된 경우의 처리를 위해
 // try catch 를 이용한다.
 
 function p(ms) {

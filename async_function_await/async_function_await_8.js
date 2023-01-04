@@ -7,7 +7,7 @@ function p(ms) {
     })
 }
 
-// Promise
+// promise
 
 p(1000).then(() => p(1000)).then(() => p(1000)).then(() => {
     console.log('3000ms 후에 실행');
